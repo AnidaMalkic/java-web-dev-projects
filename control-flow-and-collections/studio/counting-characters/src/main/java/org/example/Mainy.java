@@ -19,15 +19,13 @@ public class Mainy {
             System.out.println(character);
 
 
+            if (characterCountingMap.containsKey(character)) {
 
+             characterCountingMap.put(character,characterCountingMap.get(character) + 1);
 
-      if (characterCountingMap.containsKey(character)) {
-
-          characterCountingMap.put(character,characterCountingMap.get(character) + 1);
-
-        } else {
+            } else {
           characterCountingMap.put(character,1);
-      }
+            }
             System.out.println(characterCountingMap);
         }
     }
