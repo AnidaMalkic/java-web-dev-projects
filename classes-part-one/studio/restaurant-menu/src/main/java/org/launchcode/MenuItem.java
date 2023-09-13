@@ -1,4 +1,4 @@
-package org.launchcode;
+package main.java.org.launchcode;
 
 public class MenuItem {
     private double price;
@@ -30,7 +30,7 @@ public class MenuItem {
     }
 
     public boolean IsNew(){
-        return this.isNew()
+        return this.IsNew();
     }
 
     public String toString(){
@@ -38,6 +38,6 @@ public class MenuItem {
     }
 
     public boolean equals(Object inputItem){
-        return this.description.equals(inputItem.description)
+        return this.equals(inputItem);
     }
 }

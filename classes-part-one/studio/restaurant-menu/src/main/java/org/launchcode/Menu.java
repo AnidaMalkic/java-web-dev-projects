@@ -1,4 +1,6 @@
-package org.launchcode;
+package main.java.org.launchcode;
+
+import main.java.org.launchcode.MenuItem;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -28,11 +30,11 @@ public class Menu {
         return items;
     }
 
-    public void AddMenuItem(MenuItem, item) {
+    public void AddMenuItem(MenuItem item) {
         this.items.add(item);
     }
 
-    public void RemoveItem(MenuItem, item) {
+    public void RemoveItem(MenuItem item) {
         this.items.remove(item);
     }
 
