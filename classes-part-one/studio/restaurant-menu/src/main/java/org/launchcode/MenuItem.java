@@ -28,4 +28,16 @@ public class MenuItem {
     public void setNew(boolean aNew) {
         isNew = aNew;
     }
+
+    public boolean IsNew(){
+        return this.isNew()
+    }
+
+    public String toString(){
+        System.out.println("The menu item is" + this.price + this.description + this.category + this.isNew);
+    }
+
+    public boolean equals(Object inputItem){
+        return this.description.equals(inputItem.description)
+    }
 }
